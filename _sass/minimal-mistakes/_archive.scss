@@ -20,7 +20,7 @@
 .archive__subtitle {
   margin: 1.414em 0 0;
   padding-bottom: 0.5em;
-  font-size: $type-size-5;
+  font-size: $type-size-4;
   color: $muted-text-color;
   border-bottom: 1px solid $border-color;
 
@@ -55,7 +55,7 @@
 
 .archive__item-excerpt {
   margin-top: 0;
-  font-size: $type-size-6;
+  font-size: $type-size-5;
 
   & + p {
     text-indent: 0;
@@ -161,7 +161,7 @@
 
     @include breakpoint($medium) {
       display: block;
-      font-size: $type-size-6;
+      font-size: $type-size-5;
     }
   }
 
