@@ -22,11 +22,19 @@
   padding-bottom: 0.5em;
   font-size: $type-size-5;
   color: $muted-text-color;
-  border-bottom: 1px solid $border-color;
+  // border-bottom: 1px solid $border-color;
 
   + .list__item .archive__item-title {
     margin-top: 0.5em;
   }
+}
+
+.archive__subtitle a {
+  color: $muted-text-color;
+}
+
+.archive__subtitle a:visited {
+  color: $darker-gray;
 }
 
 .archive__item-title {
